@@ -7,72 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5176FFC616D9D4EA003274CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5176FFC516D9D4EA003274CD /* UIKit.framework */; };
-		5176FFC816D9D4EA003274CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5176FFC716D9D4EA003274CD /* Foundation.framework */; };
-		5176FFCA16D9D4EA003274CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5176FFC916D9D4EA003274CD /* CoreGraphics.framework */; };
-		5176FFD016D9D4EA003274CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5176FFCE16D9D4EA003274CD /* InfoPlist.strings */; };
-		5176FFD216D9D4EA003274CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5176FFD116D9D4EA003274CD /* main.m */; };
-		5176FFD616D9D4EB003274CD /* ACAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5176FFD516D9D4EB003274CD /* ACAppDelegate.m */; };
-		5176FFD816D9D4EB003274CD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5176FFD716D9D4EB003274CD /* Default.png */; };
-		5176FFDA16D9D4EB003274CD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5176FFD916D9D4EB003274CD /* Default@2x.png */; };
-		5176FFDC16D9D4EB003274CD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5176FFDB16D9D4EB003274CD /* Default-568h@2x.png */; };
-		5176FFDF16D9D4EB003274CD /* ACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5176FFDE16D9D4EB003274CD /* ACViewController.m */; };
-		5176FFE216D9D4EB003274CD /* ACViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5176FFE016D9D4EB003274CD /* ACViewController_iPhone.xib */; };
-		5176FFE516D9D4EB003274CD /* ACViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5176FFE316D9D4EB003274CD /* ACViewController_iPad.xib */; };
+		5176000916D9D5B2003274CD /* ACMessagingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5176000816D9D5B2003274CD /* ACMessagingTests.m */; };
+		5176000A16D9D626003274CD /* ACObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5176000516D9D560003274CD /* ACObject.m */; };
+		5176000D16D9D7B5003274CD /* Messaging.m in Sources */ = {isa = PBXBuildFile; fileRef = 5176000C16D9D7B5003274CD /* Messaging.m */; };
 		5176FFED16D9D4EB003274CD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5176FFEC16D9D4EB003274CD /* SenTestingKit.framework */; };
 		5176FFEE16D9D4EB003274CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5176FFC516D9D4EA003274CD /* UIKit.framework */; };
 		5176FFEF16D9D4EB003274CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5176FFC716D9D4EA003274CD /* Foundation.framework */; };
 		5176FFF716D9D4EB003274CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5176FFF516D9D4EB003274CD /* InfoPlist.strings */; };
-		5176FFFA16D9D4EB003274CD /* MessagingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5176FFF916D9D4EB003274CD /* MessagingTests.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5176FFF016D9D4EB003274CD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5176FFBA16D9D4EA003274CD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5176FFC116D9D4EA003274CD;
-			remoteInfo = Messaging;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		5176FFC216D9D4EA003274CD /* Messaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5176000316D9D4FC003274CD /* MessagingTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MessagingTests-Prefix.pch"; sourceTree = "<group>"; };
+		5176000416D9D560003274CD /* ACObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACObject.h; sourceTree = "<group>"; };
+		5176000516D9D560003274CD /* ACObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACObject.m; sourceTree = "<group>"; };
+		5176000716D9D5B2003274CD /* ACMessagingTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMessagingTests.h; sourceTree = "<group>"; };
+		5176000816D9D5B2003274CD /* ACMessagingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACMessagingTests.m; sourceTree = "<group>"; };
+		5176000B16D9D7AC003274CD /* Messaging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Messaging.h; sourceTree = "<group>"; };
+		5176000C16D9D7B5003274CD /* Messaging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Messaging.m; sourceTree = "<group>"; };
+		5176000E16D9DFEB003274CD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		5176FFC516D9D4EA003274CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5176FFC716D9D4EA003274CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5176FFC916D9D4EA003274CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5176FFCD16D9D4EA003274CD /* Messaging-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Messaging-Info.plist"; sourceTree = "<group>"; };
-		5176FFCF16D9D4EA003274CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5176FFD116D9D4EA003274CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5176FFD316D9D4EA003274CD /* Messaging-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Messaging-Prefix.pch"; sourceTree = "<group>"; };
-		5176FFD416D9D4EB003274CD /* ACAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACAppDelegate.h; sourceTree = "<group>"; };
-		5176FFD516D9D4EB003274CD /* ACAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACAppDelegate.m; sourceTree = "<group>"; };
-		5176FFD716D9D4EB003274CD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		5176FFD916D9D4EB003274CD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		5176FFDB16D9D4EB003274CD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		5176FFDD16D9D4EB003274CD /* ACViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACViewController.h; sourceTree = "<group>"; };
-		5176FFDE16D9D4EB003274CD /* ACViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACViewController.m; sourceTree = "<group>"; };
-		5176FFE116D9D4EB003274CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ACViewController_iPhone.xib; sourceTree = "<group>"; };
-		5176FFE416D9D4EB003274CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ACViewController_iPad.xib; sourceTree = "<group>"; };
 		5176FFEB16D9D4EB003274CD /* MessagingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessagingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5176FFEC16D9D4EB003274CD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5176FFF416D9D4EB003274CD /* MessagingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MessagingTests-Info.plist"; sourceTree = "<group>"; };
 		5176FFF616D9D4EB003274CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5176FFF816D9D4EB003274CD /* MessagingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagingTests.h; sourceTree = "<group>"; };
-		5176FFF916D9D4EB003274CD /* MessagingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessagingTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5176FFBF16D9D4EA003274CD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5176FFC616D9D4EA003274CD /* UIKit.framework in Frameworks */,
-				5176FFC816D9D4EA003274CD /* Foundation.framework in Frameworks */,
-				5176FFCA16D9D4EA003274CD /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5176FFE716D9D4EB003274CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,6 +51,7 @@
 		5176FFB916D9D4EA003274CD = {
 			isa = PBXGroup;
 			children = (
+				5176000E16D9DFEB003274CD /* README.md */,
 				5176FFCB16D9D4EA003274CD /* Messaging */,
 				5176FFF216D9D4EB003274CD /* MessagingTests */,
 				5176FFC416D9D4EA003274CD /* Frameworks */,
@@ -99,7 +62,6 @@
 		5176FFC316D9D4EA003274CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5176FFC216D9D4EA003274CD /* Messaging.app */,
 				5176FFEB16D9D4EB003274CD /* MessagingTests.octest */,
 			);
 			name = Products;
@@ -119,36 +81,19 @@
 		5176FFCB16D9D4EA003274CD /* Messaging */ = {
 			isa = PBXGroup;
 			children = (
-				5176FFD416D9D4EB003274CD /* ACAppDelegate.h */,
-				5176FFD516D9D4EB003274CD /* ACAppDelegate.m */,
-				5176FFDD16D9D4EB003274CD /* ACViewController.h */,
-				5176FFDE16D9D4EB003274CD /* ACViewController.m */,
-				5176FFE016D9D4EB003274CD /* ACViewController_iPhone.xib */,
-				5176FFE316D9D4EB003274CD /* ACViewController_iPad.xib */,
-				5176FFCC16D9D4EA003274CD /* Supporting Files */,
+				5176000416D9D560003274CD /* ACObject.h */,
+				5176000516D9D560003274CD /* ACObject.m */,
+				5176000B16D9D7AC003274CD /* Messaging.h */,
+				5176000C16D9D7B5003274CD /* Messaging.m */,
 			);
 			path = Messaging;
-			sourceTree = "<group>";
-		};
-		5176FFCC16D9D4EA003274CD /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5176FFCD16D9D4EA003274CD /* Messaging-Info.plist */,
-				5176FFCE16D9D4EA003274CD /* InfoPlist.strings */,
-				5176FFD116D9D4EA003274CD /* main.m */,
-				5176FFD316D9D4EA003274CD /* Messaging-Prefix.pch */,
-				5176FFD716D9D4EB003274CD /* Default.png */,
-				5176FFD916D9D4EB003274CD /* Default@2x.png */,
-				5176FFDB16D9D4EB003274CD /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		5176FFF216D9D4EB003274CD /* MessagingTests */ = {
 			isa = PBXGroup;
 			children = (
-				5176FFF816D9D4EB003274CD /* MessagingTests.h */,
-				5176FFF916D9D4EB003274CD /* MessagingTests.m */,
+				5176000716D9D5B2003274CD /* ACMessagingTests.h */,
+				5176000816D9D5B2003274CD /* ACMessagingTests.m */,
 				5176FFF316D9D4EB003274CD /* Supporting Files */,
 			);
 			path = MessagingTests;
@@ -158,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				5176FFF416D9D4EB003274CD /* MessagingTests-Info.plist */,
+				5176000316D9D4FC003274CD /* MessagingTests-Prefix.pch */,
 				5176FFF516D9D4EB003274CD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -166,23 +112,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5176FFC116D9D4EA003274CD /* Messaging */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5176FFFD16D9D4EB003274CD /* Build configuration list for PBXNativeTarget "Messaging" */;
-			buildPhases = (
-				5176FFBE16D9D4EA003274CD /* Sources */,
-				5176FFBF16D9D4EA003274CD /* Frameworks */,
-				5176FFC016D9D4EA003274CD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Messaging;
-			productName = Messaging;
-			productReference = 5176FFC216D9D4EA003274CD /* Messaging.app */;
-			productType = "com.apple.product-type.application";
-		};
 		5176FFEA16D9D4EB003274CD /* MessagingTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5176000016D9D4EB003274CD /* Build configuration list for PBXNativeTarget "MessagingTests" */;
@@ -195,7 +124,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				5176FFF116D9D4EB003274CD /* PBXTargetDependency */,
 			);
 			name = MessagingTests;
 			productName = MessagingTests;
@@ -224,26 +152,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5176FFC116D9D4EA003274CD /* Messaging */,
 				5176FFEA16D9D4EB003274CD /* MessagingTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5176FFC016D9D4EA003274CD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5176FFD016D9D4EA003274CD /* InfoPlist.strings in Resources */,
-				5176FFD816D9D4EB003274CD /* Default.png in Resources */,
-				5176FFDA16D9D4EB003274CD /* Default@2x.png in Resources */,
-				5176FFDC16D9D4EB003274CD /* Default-568h@2x.png in Resources */,
-				5176FFE216D9D4EB003274CD /* ACViewController_iPhone.xib in Resources */,
-				5176FFE516D9D4EB003274CD /* ACViewController_iPad.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5176FFE816D9D4EB003274CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -271,59 +185,19 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5176FFBE16D9D4EA003274CD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5176FFD216D9D4EA003274CD /* main.m in Sources */,
-				5176FFD616D9D4EB003274CD /* ACAppDelegate.m in Sources */,
-				5176FFDF16D9D4EB003274CD /* ACViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5176FFE616D9D4EB003274CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5176FFFA16D9D4EB003274CD /* MessagingTests.m in Sources */,
+				5176000916D9D5B2003274CD /* ACMessagingTests.m in Sources */,
+				5176000A16D9D626003274CD /* ACObject.m in Sources */,
+				5176000D16D9D7B5003274CD /* Messaging.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		5176FFF116D9D4EB003274CD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5176FFC116D9D4EA003274CD /* Messaging */;
-			targetProxy = 5176FFF016D9D4EB003274CD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		5176FFCE16D9D4EA003274CD /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5176FFCF16D9D4EA003274CD /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		5176FFE016D9D4EB003274CD /* ACViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5176FFE116D9D4EB003274CD /* en */,
-			);
-			name = ACViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		5176FFE316D9D4EB003274CD /* ACViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5176FFE416D9D4EB003274CD /* en */,
-			);
-			name = ACViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
 		5176FFF516D9D4EB003274CD /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -338,13 +212,12 @@
 		5176000116D9D4EB003274CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Messaging.app/Messaging";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Messaging/Messaging-Prefix.pch";
+				GCC_PREFIX_HEADER = "MessagingTests/MessagingTests-Prefix.pch";
 				INFOPLIST_FILE = "MessagingTests/MessagingTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -355,13 +228,12 @@
 		5176000216D9D4EB003274CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Messaging.app/Messaging";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Messaging/Messaging-Prefix.pch";
+				GCC_PREFIX_HEADER = "MessagingTests/MessagingTests-Prefix.pch";
 				INFOPLIST_FILE = "MessagingTests/MessagingTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -427,28 +299,6 @@
 			};
 			name = Release;
 		};
-		5176FFFE16D9D4EB003274CD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Messaging/Messaging-Prefix.pch";
-				INFOPLIST_FILE = "Messaging/Messaging-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		5176FFFF16D9D4EB003274CD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Messaging/Messaging-Prefix.pch";
-				INFOPLIST_FILE = "Messaging/Messaging-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -468,14 +318,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		5176FFFD16D9D4EB003274CD /* Build configuration list for PBXNativeTarget "Messaging" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5176FFFE16D9D4EB003274CD /* Debug */,
-				5176FFFF16D9D4EB003274CD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
